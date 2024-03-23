@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+
+}
+
+h1 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+
+  font-style: normal;
+}
+
+/* .villasimg { */
+/*   clip-path: inset(50% 50% 50% 50%); */
+/* } */
+
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.item-main .item-img {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.item-main .item-img img {
+  clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+}
