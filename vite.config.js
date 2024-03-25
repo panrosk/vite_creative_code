@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         villas: resolve(__dirname, 'villas/index.html'),
+        preloader1: resolve(__dirname, 'preloader/index.html'),
       },
     },
   },
