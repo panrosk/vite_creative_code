@@ -52,3 +52,7 @@ img {
 .item-main .item-img img {
   clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
 }
+
+.clip-p {
+  clip-path: polygon(0% 0% , 100% 0%, 100% 0%, 0% 0% );
+}

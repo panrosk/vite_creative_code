@@ -9,6 +9,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         villas: resolve(__dirname, 'villas/index.html'),
         preloader1: resolve(__dirname, 'preloader/index.html'),
+        preloader2: resolve(__dirname, 'preloader2/index.html'),
       },
     },
   },
